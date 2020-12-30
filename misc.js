@@ -88,3 +88,10 @@ const customKey = "myKey";
 console.log({ [customKey]: "myValue" }); // {myKey: "myValue"}
 
 /* ********************************************* */
+
+/* ********************************************* */
+// Check if object is empty
+
+Object.keys(obj).length === 0 && obj.constructor === Object;
+
+/* ********************************************* */
